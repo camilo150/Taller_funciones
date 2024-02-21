@@ -7,7 +7,7 @@ do {
         
     
     opciones = Number(
-        prompt("seleccione la opcion que desea con su numero\n1.calcular salario\n2.numeros desde n hasta m\n3.calculadora basica\n4.documentacion\n5.tabla de multiplicar\n6.area y perimetro"));
+     prompt("seleccione la opcion que desea con su numero\n1.calcular salario\n2.numeros desde n hasta m\n3.calculadora basica\n4.documentacion\n5.tabla de multiplicar\n6.area y perimetro\n7.salir"));
 
     if (opciones == 1) {
         function salario() {
