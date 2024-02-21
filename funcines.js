@@ -1,8 +1,11 @@
 // camilo castrillon y miguel higuita
 var opciones = 1;
-
+intentos=0
 do {
-
+   intentos++
+    
+        
+    
     opciones = Number(
         prompt("seleccione la opcion que desea con su numero\n1.calcular salario\n2.numeros desde n hasta m\n3.calculadora basica\n4.documentacion\n5.tabla de multiplicar\n6.area y perimetro"));
 
@@ -68,7 +71,7 @@ do {
             }
 
         }while(opcionEcuacion!=5)
-        break;
+        
 
     } else if (opciones == 4) {
         function Nombre(){
@@ -147,3 +150,4 @@ do {
     }
   
 } while (opciones != 7);
+alert (" la cantidad de intentos fue de "+intentos)
